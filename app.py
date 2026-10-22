@@ -5,7 +5,6 @@ from torchvision import models, transforms
 from PIL import Image
 
 st.title("Orange Image Classifier")
-st.warning("Dataset contains orange classes, not avocado ripeness classes.")
 
 classes = ["blackspot", "canker", "fresh", "grenning"]
 device = torch.device("cpu")
