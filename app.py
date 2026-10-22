@@ -14,10 +14,7 @@ st.set_page_config(
 st.title("🍊 Orange Image Classifier")
 st.write("Upload an orange image to predict its class.")
 
-st.warning(
-    "Note: The available dataset contains orange conditions, "
-    "not avocado ripening stages."
-)
+
 
 CLASSES = ["blackspot", "canker", "fresh", "grenning"]
 MODEL_PATH = "avocado_mobilenetv2.pth"
